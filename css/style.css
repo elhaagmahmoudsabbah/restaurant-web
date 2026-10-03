@@ -4,6 +4,11 @@
     
 
 }
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
 
 .navbar{
     background-color: #eeecec!important;
@@ -21,6 +26,9 @@
       animation: image 10s linear  infinite alternate;
       transform: rotate(360deg);
 
+}
+.nav-about {
+    max-width: 900px;
 }
 
 @keyframes image {
